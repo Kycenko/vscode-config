@@ -9,7 +9,8 @@
 			"  \"semi\": false, ",
 			"  \"singleQuote\": true, ",
 			"  \"jsxSingleQuote\": true, ",
-			"  \"arrowParens\": \"avoid\" ",
+			"  \"arrowParens\": \"avoid\", ",
+			"  \"singleAttributePerLine\": \"true\" ",
 			"}"
 		],
 		"description": "Prettier config"

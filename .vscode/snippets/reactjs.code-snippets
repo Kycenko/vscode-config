@@ -1,0 +1,32 @@
+{
+	"React Function Component": {
+		"prefix": "rfc",
+		"body": [
+			"function ${1:ComponentName}() {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t$2",
+			"\t\t</div>",
+			"\t);",
+			"}",
+			"",
+			"export default ${1:ComponentName};"
+		],
+		"description": "Create a React component using function syntax"
+	},
+	"React Const Component": {
+		"prefix": "rcc",
+		"body": [
+			"const ${1:ComponentName} = () => {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t$2",
+			"\t\t</div>",
+			"\t);",
+			"};",
+			"",
+			"export default ${1:ComponentName};"
+		],
+		"description": "Create a React component using const and arrow function syntax"
+	}
+}
